@@ -26,8 +26,6 @@ docker-compose up --build
 > ⚠️ Make sure Docker and Docker Compose are installed on your system.
 
 
-Or use the configured port shown in the terminal after running the app.
-
 #Technologies Used
 
 Frontend: React.js
