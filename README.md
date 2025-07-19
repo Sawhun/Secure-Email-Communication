@@ -2,7 +2,7 @@
 
 A secure email communication system that protects sensitive messages using encryption and digital signatures. Built with a focus on privacy, the platform ensures messages remain confidential and tamper-proof during transmission.
 
-Features
+#Features
 
 End-to-end email encryption
 
@@ -17,8 +17,8 @@ Simple and secure interface for sending and receiving emails
 #Run with Docker
 
 ```bash
-git clone https://github.com/Sawhun/Secure-Email-Communication-Systerm.git
-cd Secure-Email-Communication-Systerm
+git clone https://github.com/Sawhun/Secure-Email-Communication.git
+cd Secure-Email-Communication
 npm install concurrently --save-dev
 docker-compose up --build
 ```
@@ -28,7 +28,7 @@ docker-compose up --build
 
 Or use the configured port shown in the terminal after running the app.
 
-Technologies Used
+#Technologies Used
 
 Frontend: React.js
 
@@ -38,7 +38,7 @@ Security: Crypto libraries for AES encryption and RSA digital signatures
 
 Containerization: Docker, Docker Compose
 
-Folder Structure
+#Folder Structure
 
 ```
 Secure-Email-Communication-Systerm/
