@@ -27,8 +27,11 @@ Or use the configured port shown in the terminal after running the app.
 Technologies Used
 
 Frontend: React.js
+
 Backend: Node.js, Express.js
+
 Security: Crypto libraries for AES encryption and RSA digital signatures
+
 Containerization: Docker, Docker Compose
 
 Folder Structure
