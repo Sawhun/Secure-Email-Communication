@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    ports:
+      - "3001:3001"
+      - "5173:5173"
+    volumes:
+      - .:/app             # Sync source code for live reload
+      - ./secure_email.db:/app/secure_email.db  # Share database between host & container
+    command: npm run dev   # Ensure dev mode is used
+    depends_on:
+      - init_db
+
+  init_db:
+    image: busybox
+    volumes:
+      - ./secure_email.db:/app/secure_email.db
+    command: []
